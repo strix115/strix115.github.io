@@ -1,0 +1,245 @@
+/* CSS Document */
+header{
+    background-image:url("image/zahlavi.jpg");
+    background-repeat: no-repeat;
+    height: 340px;
+    background-position: center;
+ 
+}
+
+body{
+    font-family: Arial;
+    background-color: white;  
+    background-size: 100%;  
+    
+}
+
+
+.navigace {
+    
+    background-color: rgb(216, 188, 176);
+    font-family: Arial;  
+    text-align: center;
+    width: 100%;
+    display: in-line;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    word-spacing: 50px;
+    position: sticky;
+}
+
+.navigace1 {
+    padding-top:20px;
+    padding-bottom: 20px;
+    display: inline;
+    margin: 0 auto;
+    display: table;
+
+}
+.navigace2 {
+
+    display:inline;
+
+}
+
+
+.okraje {
+    background-color: rgb(255, 225, 202);
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom:3%;
+   
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: brown;
+}
+
+.nadpis_h1 {
+    font-family: Arial;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 15px;
+}
+
+
+.nadpis_h2 {
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;    
+}
+.odstavec{
+    font-family: Arial;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+
+}
+.odstavec2{
+    text-align: center;
+}
+.tabulka{
+    padding: 5% 15% 5% 15%;
+
+}
+table, th, td, tr {
+    border:solid black;
+    border-collapse: collapse;
+
+}
+th {
+    height: 50px;
+}
+
+.kontaktni-formular{
+    display: table;
+    padding-top: 2%;
+
+}
+input[type=text] {
+  width: 300px;
+  border-radius: 4px;
+  border: 2px solid;
+}
+
+textarea{
+    width: 300px;
+    height: 150px;
+    margin-left:25px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+
+}
+fieldset {
+    margin-left: 30%;
+    margin-right:30%;
+    border: none;
+}
+
+.video {
+    margin-left: 37%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left:15%;
+}
+ol {
+    padding-top: 2%;
+    padding-left: 15%;
+}
+.podnadpis {
+    padding-left: 10%;
+}
+.obr {
+    padding-left: 30%;
+    padding-bottom:1%;
+}
+footer {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+@media (max-width:480px) {
+    header {
+        display:none;
+    }
+    .seznam > ul {
+        font-size: 20px;
+    }
+    .seznam > ol {
+        font-size: 20px;
+    }
+    nav {
+        font-size:21px;
+        word-spacing:30px;
+
+    } 
+
+}
+@media (min-width:480px) {
+    header {
+        display:none;
+    }
+    .seznam > ul {
+        font-size: 20px;
+    }
+    .seznam > ol {
+        font-size: 20px;
+    }
+    nav {
+        font-size:21px;
+        word-spacing:30px;
+
+    } 
+
+}
+@media (min-width:768px) {
+    header {
+        display: block;
+        }
+    .seznam > ul {
+        font-size: 15px;
+    }
+    .seznam > ol {
+        font-size: 15px;
+    }
+    nav {
+        font-size:17px;
+        word-spacing:40px;
+
+    } 
+
+}
+@media (min-width:992px) {
+    header {
+        display: block;
+        }
+    .seznam > ul {
+        font-size: 14px;
+    }
+    .seznam > ol {
+        font-size: 14px;
+    }
+    nav {
+        font-size:15px;
+        word-spacing:50px;
+
+    } 
+
+}
+@media print {
+    img, header, nav {
+        display: none;
+    }
+    .okraje, .odstavec, .nadpis_h2 {
+        padding:0;
+        margin: 0;
+    }
+    p {
+        font-size: 12pt;
+    }
+    body {
+        font-family: Georgia, ‘Times New Roman’, serif;
+    }
+     a:link:after { 
+        content: " (" attr(href) ") "; 
+     }
+     a:link { 
+        font-weight: bold;
+        text-decoration: underline;
+        color: #06c; 
+        }
+}
+
+
